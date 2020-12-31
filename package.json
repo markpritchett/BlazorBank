@@ -1,0 +1,26 @@
+{
+  "name": "BlazorBank",
+  "version": "1.0.0",
+  "description": "A bank web application written using [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor) (Web Assembly) and styled using [tailwindcss](https://tailwindcss.com/).",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss tailwind.css -o wwwroot/css/site.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markpritchett/BlazorBank.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markpritchett/BlazorBank/issues"
+  },
+  "homepage": "https://github.com/markpritchett/BlazorBank#readme",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.2",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  }
+}

@@ -58,22 +58,13 @@
 
     public class LoginModel
     {
-        [Required(ErrorMessage = "Please enter your email address")]
-        [EmailAddress]
         public string EmailAddress { get; set; }
 
-        [Required(ErrorMessage = "Please enter your password")]
         public string Password { get; set; }
     }
 
     void HandleValidSubmit(EditContext context)
     {
-        if (model.Password != "Blazor")
-        {
-            showUnableToLoginMessage = true;
-            return;
-        }
-
         NavigationManager.NavigateTo("my-accounts");
     }
 
